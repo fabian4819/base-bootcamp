@@ -8,7 +8,7 @@ import {Token} from "../src/Token.sol";
 contract DeployTest is Test {
     TokenScript script;
     Token token;
-    
+
     uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
     address deployer = vm.addr(deployerPrivateKey);
 
